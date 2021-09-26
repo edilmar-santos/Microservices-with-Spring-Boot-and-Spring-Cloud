@@ -1,0 +1,18 @@
+server:
+  port: 7000
+
+app:
+  product-service:
+    host: localhost
+    port: 7001
+  review-service:
+    host: localhost
+    port: 7002
+  recommendation-service:
+    host: localhost
+    port: 7003
+  
+logging:
+  level:
+    root: INFO
+    '[br.com.eddy.productcompositeservice]': DEBUG 
